@@ -12,22 +12,26 @@ let hitPoints = 100;
 function arcaneScepter(event){
     let attackPoints = apCost -12;
     let hitPoints = hpDamage -14;
+    console.log('arcaneScepter')
    // arcaneScepter = document.getElementByClassId('attack-btn arcane-scepter');
 
 };
 function entangle(event){ 
     let attackPoints = apCost -23;
     let hitPoints = hpDamage -9;
+    console.log('entangle')
   //  entangle = document.getElementByClassId('attack-btn entangle');
 };
 function dragonBlade(){
    let attackPoints = apCost -38;
    let hitPoints = hpDamage -47;
+   console.log('dragonBlade')
   // dragonBlade= document.getElementByClassId('attack-btn dragon-blade');
 };
 function starFire(event){
     let attackPoints = apCost -33;
     let hitPoints = hpDamage -25;
+    console.log('starFire')
   //  starFire = document.getElementByClassID('attack-btn star-fire');
  };
 
